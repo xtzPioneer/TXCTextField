@@ -120,7 +120,7 @@
     NSDictionary * dic = @{NSFontAttributeName:self.placeholderFont};
     CGSize size = [self.aPlaceholder boundingRectWithSize:CGSizeMake(width-self.placeholderSpacing*2,height) options:NSStringDrawingUsesLineFragmentOrigin attributes:dic context:nil].size;
     CGFloat placeholderLabelX=self.placeholderSpacing;
-    CGFloat placeholderLabelY=(height-size.height-height/6.0)/2;
+    CGFloat placeholderLabelY=(height-size.height)/2;
     CGFloat placeholderLabelW=size.width;
     CGFloat placeholderLabelH=size.height;
     if (self.placeholderAlignment==TXPlaceholderAlignmentCenter) {
