@@ -1,11 +1,7 @@
 # TXCTextField
 * 只需简单操作即可监听TextField输入,监听第一响应事件,改变描述颜色以及对齐方式等功能。
-### 版本更新说明
-* 重构项目结构
-* 新增光标起始位置
-* 系统高度保持一致
 ### cocoapods集成
-* pod 'TXCTextField', '~> 0.0.2'
+* pod 'TXCTextField', '~> 0.0.3'
 ### 代码片段
 ```objc
 /*TextField改变*/
@@ -71,3 +67,11 @@ typedef NS_ENUM(NSInteger,TXPlaceholderAlignment){
     // Do any additional setup after loading the view, typically from a nib.
 }
 ```
+### 版本更新说明
+#### 0.0.3 版本更新内容
+* 优化项目结构，解决描述字体不能垂直居中问题。
+
+#### 0.0.2 版本更新内容
+* 重构项目结构
+* 新增光标起始位置
+* 系统高度保持一致
