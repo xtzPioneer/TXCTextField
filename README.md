@@ -67,7 +67,7 @@ typedef NS_ENUM(NSInteger,TXPlaceholderAlignment){
     // Do any additional setup after loading the view, typically from a nib.
 }
 ```
-### 版本更新说明
+### 版本更新
 #### 0.0.3 版本更新内容
 * 优化项目结构，解决描述字体不能垂直居中问题。
 
